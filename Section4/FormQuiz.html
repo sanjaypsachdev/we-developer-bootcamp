@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Register</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form action="">
+    <div>
+      <label for="firstName">First Name: </label>
+      <input type="text" id="firstName" name="firstName" placeholder="John" required/>
+      <label for="lastName">Last Name: </label>
+      <input type="text" id="lastName" name="lastName" placeholder="Smith" required/>
+    </div>
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Female</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="male">Other</label>
+      <input type="radio" id="other" name="gender" value="other" />
+    </div>
+    <div>
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="your email" required>
+      <label for="email">Password: </label>
+      <input type="password" name="password" id="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
+    </div>
+    <div>
+      <label>
+        Birthday: 
+        <select name="birthday_month" id="birthday_month">
+          <option>Month</option>
+          <option value="jan">January</option>
+          <option value="feb">Febuary</option>
+          <option value="mar">March</option>
+          <option value="apr">April</option>
+        </select>
+        <select name="birthday_day" id="birthday_day">
+          <option>Day</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <select name="birthday_year" id="birthday_year">
+          <option>Year</option>
+          <option>1995</option>
+          <option>1996</option>
+          <option>1997</option>
+          <option>1998</option>
+        </select>
+      </label>
+    </div>
+    <div>
+      <label for="terms">I agree to the terms and conditions</label>
+      <input type="checkbox" name="terms" id="terms">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

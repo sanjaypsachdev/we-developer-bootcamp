@@ -1,0 +1,20 @@
+h1 {
+  color: #FF0000;
+  border: 2px dashed purple ;
+}
+
+h4 {
+  color: rgba(11, 99, 150, .6);
+  background: rgb(255, 100, 80);
+}
+
+li {
+  color: rgb(32, 139, 32);
+}
+
+body {
+  /* background: url(https://chinabopetfilm.com/wp-content/uploads/2018/02/wooden-grain-heat-transfer-foil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: pink;
+}
